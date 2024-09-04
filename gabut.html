@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyek Tailwind CSS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100">
+
+    <!-- Navbar -->
+    <nav class="bg-blue-500 text-white p-4 fixed w-full top-0 flex justify-between items-center">
+        <div class="font-bold text-lg">Logo</div>
+        <div class="space-x-4">
+            <a href="#" class="hover:text-blue-200">Home</a>
+            <a href="#" class="hover:text-blue-200">About</a>
+            <a href="#" class="hover:text-blue-200">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="bg-blue-500 text-white text-center p-6 mt-16">
+        <h1>Ini adalah Header</h1>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="h-screen bg-cover bg-center relative" style="background-image: url('https://via.placeholder.com/1500');">
+        <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+            <h1 class="text-white text-4xl md:text-6xl font-bold">Selamat Datang</h1>
+        </div>
+    </section>
+
+    <!-- Section dengan Grid -->
+    <section class="w-full grid grid-cols-1 md:grid-cols-3 gap-4 p-6">
+        <div class="col-span-1">
+            <img src="https://via.placeholder.com/300" alt="Gambar" class="w-full">
+        </div>
+        <div class="col-span-2">
+            <p>Ini adalah teks di kolom kedua. Kamu bisa menambahkan lebih banyak teks di sini sesuai kebutuhan.</p>
+        </div>
+    </section>
+
+    <!-- Content Section -->
+    <section class="p-6 grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div class="bg-gray-200 p-4">
+            <h2 class="font-bold text-xl">Artikel 1</h2>
+            <p>Isi dari artikel 1.</p>
+        </div>
+        <div class="bg-gray-200 p-4">
+            <h2 class="font-bold text-xl">Artikel 2</h2>
+            <p>Isi dari artikel 2.</p>
+        </div>
+    </section>
+
+    <!-- Tombol -->
+    <div class="text-center p-6">
+        <button class="bg-blue-300 text-white rounded-md p-3 hover:bg-blue-500">
+            Klik Saya
+        </button>
+    </div>
+
+</body>
+
+</html>

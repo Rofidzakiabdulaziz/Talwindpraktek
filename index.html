@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Tailwind</title>
+    <link href="dist/output.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100">
+
+    <!-- Navbar -->
+    <nav class="bg-blue-500 text-white p-4 fixed w-full top-0 flex justify-between items-center">
+        <div class="font-bold text-lg">Logo</div>
+        <div class="space-x-4">
+            <a href="#home" class="hover:text-blue-200">Home</a>
+            <a href="#about" class="hover:text-blue-200">About</a>
+            <a href="#contact" class="hover:text-blue-200">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section Start -->
+    <section id="home" class="pt-36">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full self-center px-4">
+            <h1 class="text-base font-semibold text-teal-500">
+              Hallo Semua 🦌, saya
+              <span class="block font-bold text-slate-900 text-4xl mt-1">
+                Rofi Dzaki Abdul Aziz
+              </span>
+            </h1>
+            <h2 class="font-medium text-lg mb-5">Student</h2>
+            <div class="text-slate-400 mb-10 leading-relaxed">
+              Belajar web Programming itu sangatlah
+              <span class="text-slate-900 font-semibold">Gampang</span>
+              <a href="#" class="text-base bg-teal-500 text-white py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-100 ease-in-out">Hubungi saya</a>
+            </div>
+          </div>
+          <div class="w-full self-end px-4">
+            <div class="mt-10">
+              <img src="https://via.placeholder.com/300" alt="Profile Image" class="w-full">
+            </div>    
+          </div>
+        </div>
+      </div> 
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- About Section Start -->
+    <section id="about" class="w-full grid grid-cols-1 md:grid-cols-3 gap-4 p-6">
+      <div class="col-span-1">
+        <img src="https://via.placeholder.com/300" alt="About Image" class="w-full">
+      </div>
+      <div class="col-span-2">
+        <p>TEKS GABUT AJA INI MAHHH</p>
+      </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Content Section Start -->
+    <section class="p-6 grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div class="bg-gray-200 p-4">
+        <h2 class="font-bold text-xl">Artikel 1</h2>
+        <p>Isi dari artikel 1.</p>
+      </div>
+      <div class="bg-gray-200 p-4">
+        <h2 class="font-bold text-xl">Artikel 2</h2>
+        <p>Isi dari artikel 2.</p>
+      </div>
+    </section>
+    
+    <!-- Content Section End -->
+
+    <!-- Contact Button -->
+    <div class="text-center p-6">
+      <button class="bg-blue-300 text-white rounded-md p-3 hover:bg-blue-500">
+        Klik Saya
+      </button>
+    </div>
+
+  </body>
+</html>
